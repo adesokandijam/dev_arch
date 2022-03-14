@@ -1,0 +1,6 @@
+include: 
+  - template: Terraform.latest.gitlab-ci.yml
+variables:
+  TF_STATE_NAME: default
+  TF_CACHE_KEY: default
+  TF_ROOT: environment/testing
